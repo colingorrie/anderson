@@ -4,19 +4,85 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: 'Montaga', serif;
+  font-size: 20px;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+}
 
+nav {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
+h1 {
+  font-size: 3.998em;
+}
 
+h2 {
+  font-size: 2.827em;
+}
 
+h3 {
+  font-size: 1.999em;
+}
 
+h4 {
+  font-size: 1.414em;
+}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
+#intro {
+  color: #fff;
+  height: 100vh;
+  padding: 200px 0 220px 0;
+  text-align: center;
+}
 
+.navbar {
+  background: none;
+  border-radius: 0;
+  border: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+  color: #FFF !important;
+}
 
+.navbar-brand {
+  font-size: 1em;
+}
 
+.section {
+  padding-top: 60px;
+}
 
+/** 
+ * iOS compatibility
+ */
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  #intro {
+    height: 1024px;
+  }
+}
 
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  #intro {
+    height: 768px;
+  }
+}
 
-
+@media screen and (device-aspect-ratio: 40/71) {
+  #intro {
+    height: 500px;
+  }
+}
