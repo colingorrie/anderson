@@ -3,7 +3,7 @@ var browserslist      = require("browserslist");
 var gulp              = require("gulp");
 var gulpAutoprefixer  = require("gulp-autoprefixer");
 var gulpLess          = require("gulp-less");
-var gulpMinifyCss     = require("gulp-minify-css");
+var gulpCssnano       = require("gulp-cssnano");
 
 // browsers for which autoprefix will add prefixes
 // var browsers = "> 1%, last 2 versions, IE >= 8, Firefox ESR, Opera 12.1";
@@ -13,7 +13,7 @@ gulp.task("less", function() {
   // compile less files
   gulp.src("src/less/main.less")
     .pipe(gulpLess())
-    .pipe(gulpMinifyCss())
+    .pipe(gulpCssnano())
     .pipe(gulpAutoprefixer(browsers))
     .pipe(gulp.dest("public/css/"));
 });
