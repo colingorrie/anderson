@@ -1,5 +1,4 @@
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -52,9 +51,13 @@ img {
   background: none;
   border-radius: 0;
   border: 0;
-  padding: 20px 0;
   text-transform: uppercase;
   color: #FFF !important;
+}
+
+.navbar-color {
+  background-color: #FFF;
+  border-bottom: 1px solid #000;
 }
 
 .navbar-brand {
@@ -62,7 +65,20 @@ img {
 }
 
 .section {
-  padding-top: 60px;
+  position: relative;
+  padding: 120px 0;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.navbar {
+  -webkit-transition: all 0.125s ease-in-out 0s;
+  -moz-transition: all 0.125s ease-in-out 0s;
+  -ms-transition: all 0.125s ease-in-out 0s;
+  -o-transition: all 0.125s ease-in-out 0s;
+  transition: all 0.125s ease-in-out 0s;
 }
 
 /** 
