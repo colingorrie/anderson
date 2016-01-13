@@ -1,20 +1,15 @@
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 body {
-  font-family: 'Montaga', serif;
+  font-family: @body-font;
   font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: @header-font;
   font-weight: 600;
 }
 
 nav {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: @header-font;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -40,6 +35,10 @@ img {
   height: auto;
 }
 
+a {
+  transition: @transition-default;
+}
+
 #intro {
   color: #fff;
   padding: 200px 0 220px 0;
@@ -48,21 +47,23 @@ img {
 
 .navbar {
   background: none;
-  border-radius: 0;
   border: 0;
+  border-radius: 0;
   text-transform: uppercase;
+  transition: all 0.125s ease-in-out 0s;
+
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
-  color: #FFF;
+  color: @color-background;
 }
 
 .navbar-color.navbar-inverse .navbar-brand, .navbar-color.navbar-inverse .navbar-nav>li>a {
-  color: #000;
+  color: @color-foreground;
 }
 
 .navbar-color.navbar-inverse .navbar-nav>li.active>a {
-  color: #FFF;
+  color: @color-background;
 }
 
 .navbar-brand, .navbar-nav>li>a {
@@ -70,8 +71,8 @@ img {
 }
 
 .navbar-color {
-  background-color: #FFF;
-  border-bottom: 1px solid #000;
+  background-color: @color-background;
+  border-bottom: 1px solid @color-foreground;
 }
 
 .navbar-brand {
@@ -79,36 +80,10 @@ img {
 }
 
 .section {
-  position: relative;
   padding: 120px 0;
+  position: relative;
 }
 
 .wrapper {
   overflow: hidden;
-}
-
-a, .navbar {
-  transition: all 0.125s ease-in-out 0s;
-}
-
-/** 
- * iOS compatibility
- */
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  #intro {
-    height: 1024px;
-  }
-}
-
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  #intro {
-    height: 768px;
-  }
-}
-
-@media screen and (device-aspect-ratio: 40/71) {
-  #intro {
-    height: 500px;
-  }
 }
