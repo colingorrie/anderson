@@ -39,7 +39,7 @@ a {
 
 // ---- Modules ----
 
-// Navbar
+// --- Navbar
 
 .navbar {
   background: none;
@@ -50,6 +50,17 @@ a {
   text-transform: uppercase;
   transition: @transition-default;
 }
+ 
+.navbar-brand {
+  font-size: 1em;  // override bootstrap default
+
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none !important;  // override bootstrap default
+}
+
+// Navbar states
 
 .is-navbar-docked {
 }
@@ -75,20 +86,7 @@ a {
   color: @color-foreground;
 }
 
-.navbar-brand, .navbar-nav>li>a {
-  text-shadow: none !important;
-}
-
-// .navbar-color {
-//   background-color: @color-background;
-//   border-bottom: 1px solid @color-foreground;
-// }
-
-.navbar-brand {
-  font-size: 1em;
-}
-
-// other
+// ---- Other ----
 
 #intro {
   color: #fff;
