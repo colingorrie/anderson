@@ -3,6 +3,7 @@ body {
   color: #000000;
   font-family: "Montage", "Palatino", "Garamond", serif;
   font-size: 20px;
+  line-height: 1.5;
 }
 h1,
 h2,
@@ -12,6 +13,7 @@ h5,
 h6 {
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   font-weight: 600;
+  line-height: 1;
 }
 h1 {
   font-size: 3.998em;
