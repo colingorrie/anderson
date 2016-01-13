@@ -51,26 +51,38 @@ a {
   transition: @transition-default;
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+.is-navbar-docked {
+}
+
+.is-navbar-docked .navbar-brand {
   color: @color-background;
 }
 
-.navbar-color.navbar-inverse .navbar-brand, .navbar-color.navbar-inverse .navbar-nav>li>a {
+.is-navbar-docked .navbar-nav>li>a {
+  color: @color-background;
+}
+
+.is-navbar-floating {
+  background-color: @color-background;
+  border-bottom: 1px solid @color-foreground;
+}
+
+.is-navbar-floating .navbar-brand, .is-navbar-floating .navbar-nav>li>a {
   color: @color-foreground;
 }
 
-.navbar-color.navbar-inverse .navbar-nav>li.active>a {
-  color: @color-background;
+.is-navbar-floating .navbar-brand:hover, .is-navbar-floating .navbar-nav>li>a:hover {
+  color: @color-foreground;
 }
 
 .navbar-brand, .navbar-nav>li>a {
   text-shadow: none !important;
 }
 
-.navbar-color {
-  background-color: @color-background;
-  border-bottom: 1px solid @color-foreground;
-}
+// .navbar-color {
+//   background-color: @color-background;
+//   border-bottom: 1px solid @color-foreground;
+// }
 
 .navbar-brand {
   font-size: 1em;

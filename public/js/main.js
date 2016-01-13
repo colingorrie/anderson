@@ -35,11 +35,12 @@
 
     $(window).scroll(function() {
       if($(this).scrollTop() >= navHeight) {
-        navbar.addClass('navbar-color');
+        navbar.addClass("is-navbar-floating");
+        navbar.removeClass("is-navbar-docked");
       }
       else {
-        navbar.removeClass('navbar-color');
-      }
+        navbar.addClass("is-navbar-docked");
+        navbar.removeClass("is-navbar-floating");      }
     });
 
     if($(window).width() <= 767) {
