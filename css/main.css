@@ -53,11 +53,15 @@ img {
   text-transform: uppercase;
 }
 
-.navbar-inverse.navbar-color .navbar-brand, .navbar-inverse.navbar-color .navbar-nav>li>a {
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-color.navbar-inverse .navbar-brand, .navbar-color.navbar-inverse .navbar-nav>li>a {
   color: #000;
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+.navbar-color.navbar-inverse .navbar-nav>li.active>a {
   color: #FFF;
 }
 
