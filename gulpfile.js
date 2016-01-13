@@ -6,7 +6,8 @@ var gulpLess          = require("gulp-less");
 var gulpMinifyCss     = require("gulp-minify-css");
 
 // browsers for which autoprefix will add prefixes
-var browsers = "> 1%, last 2 versions, IE >= 8, Firefox ESR, Opera 12.1";
+// var browsers = "> 1%, last 2 versions, IE >= 8, Firefox ESR, Opera 12.1";
+var browsers = "> 1%";
 
 gulp.task("less", function() {
   // compile less files
