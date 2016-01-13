@@ -2,15 +2,15 @@
   $(document).ready(function() {
 
     $('body').scrollspy({
-      target: '.navbar-custom',
+      target: '.navbar-inverse',
       offset: 50
     });
 
-    // $(document).on('click','.navbar-collapse.in',function(e) {
-    //   if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
-    //     $(this).collapse('hide');
-    //   }
-    // });
+    $(document).on('click','.navbar-collapse.in',function(e) {
+      if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+      }
+    });
 
     $('a[href*=#]').bind("click", function(e){
       var anchor = $(this);
@@ -24,7 +24,7 @@
      * Background image
     /* ---------------------------------------------- */
 
-    $("#intro").backstretch("img/bg3.jpeg");
+    $("#intro").backstretch(["img/bg3.jpeg"]);
 
     /* ---------------------------------------------- /*
      * Navbar

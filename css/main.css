@@ -42,7 +42,6 @@ img {
 
 #intro {
   color: #fff;
-  height: 100vh;
   padding: 200px 0 220px 0;
   text-align: center;
 }
@@ -52,7 +51,18 @@ img {
   border-radius: 0;
   border: 0;
   text-transform: uppercase;
-  color: #FFF !important;
+}
+
+.navbar-inverse.navbar-color .navbar-brand, .navbar-inverse.navbar-color .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none !important;
 }
 
 .navbar-color {
