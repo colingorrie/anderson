@@ -25,6 +25,12 @@ h3 {
 h4 {
   font-size: 1.414em;
 }
+h5 {
+  font-size: 0.707em;
+}
+h6 {
+  font-size: 0.354em;
+}
 img {
   max-width: 100%;
   height: auto;
