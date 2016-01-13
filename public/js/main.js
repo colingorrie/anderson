@@ -43,18 +43,5 @@
         navbar.removeClass("is-navbar-floating");      }
     });
 
-    if($(window).width() <= 767) {
-      navbar.addClass('custom-collapse');
-    }
-
-    $(window).resize(function() {
-      if($(this).width() <= 767) {
-        navbar.addClass('custom-collapse');
-      }
-      else {
-        navbar.removeClass('custom-collapse');
-      }
-    });
-
   });
 })(jQuery);
