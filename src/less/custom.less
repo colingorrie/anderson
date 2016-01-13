@@ -71,17 +71,42 @@ a {
   color: @color-background;
 }
 
+.is-navbar-docked .navbar-collapse{
+  border-color: @color-background;
+}
+
+.is-navbar-docked .navbar-toggle,
+.is-navbar-docked .navbar-toggle:hover,
+.is-navbar-docked .navbar-toggle:focus {
+  background: none;
+  border: 1px solid @color-background;
+  color: @color-background;
+}
+
 .is-navbar-floating {
   background-color: @color-background;
   border-bottom: 1px solid @color-foreground;
 }
 
-.is-navbar-floating .navbar-brand, .is-navbar-floating .navbar-nav>li>a {
+.is-navbar-floating .navbar-brand,
+.is-navbar-floating .navbar-brand:hover,
+.is-navbar-floating .navbar-nav>li>a,
+.is-navbar-floating .navbar-nav>li>a:hover {
   color: @color-foreground;
 }
 
-.is-navbar-floating .navbar-brand:hover, .is-navbar-floating .navbar-nav>li>a:hover {
-  color: @color-foreground;
+.is-navbar-floating .navbar-toggle:hover,
+.is-navbar-floating .navbar-toggle:focus {
+  background-color: @color-foreground;
+}
+
+.is-navbar-floating .navbar-toggle .icon-bar {
+  background-color: @color-foreground;  // .icon-bar is coloured with background-color, not color
+}
+
+.is-navbar-floating .navbar-toggle:hover .icon-bar,
+.is-navbar-floating .navbar-toggle:focus .icon-bar {
+  background-color: @color-background;  // .icon-bar is coloured with background-color, not color
 }
 
 // --- Section
