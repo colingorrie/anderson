@@ -121,30 +121,37 @@ a {
 // --- Section
 
 .section {
-  padding: 120px 0;
+  padding-top: 120px
   position: relative;
 }
 
 // --- Section: Splash
 
 .section.section-splash {
-  color: #fff;
+  color: @color-background;
   padding: 200px 0 220px 0;
   text-align: center;
 }
 
-// --- Section: Compact
 
-.section.section-compact {
-  padding: 20px;
+// ---- Social Icons ----
+
+.list-social-icons {
+  margin: 0 auto;
 }
 
-// ---- List ----
+.link-social {
+  color: @color-foreground;  
+}
 
-// --- List: Social
+.link-social:hover {
+  color: @color-accent;
+}
 
-.list-social{
-  margin: 0 auto;
+// ---- Portfolio ----
+
+.portfolio-item {
+  margin-bottom: 20px;
 }
 
 // ---- Other ----
