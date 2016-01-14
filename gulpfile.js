@@ -23,10 +23,10 @@ gulp.task("browserslist", function() {
   console.log(browserslist(browsers));
 });
 
-gulp.task('fonts', function() {
+gulp.task("fonts", function() {
   return gulp.src("node_modules/font-awesome/fonts/*")
-    .pipe(gulp.dest("public/fonts/"))
-})
+    .pipe(gulp.dest("public/fonts/"));
+});
 
 gulp.task("watch", function() {
   gulp.watch("src/less/**/*.less", ["less"]);
