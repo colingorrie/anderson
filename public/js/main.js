@@ -22,7 +22,7 @@
 
     // Backstretch
 
-    $("#splash").backstretch(["img/bg3.jpeg"]);
+    $("#splash").backstretch(["img/bg3.jpg"]);
 
     // Floating navbar
 

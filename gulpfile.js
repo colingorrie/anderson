@@ -35,7 +35,7 @@ gulp.task("imagemin", function() {
       progressive: true,
       svgoPlugins: [{ removeViewBox: false }]
     }))
-    .pipe(gulp.dest("public/img"));
+    .pipe(gulp.dest("public/img/"));
 });
 
 gulp.task("watch", function() {
