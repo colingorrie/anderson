@@ -42,5 +42,11 @@
       }
     });
 
+    // Popup
+
+    $(".popup-link").magnificPopup({
+      type: "image"
+    });
+
   });
 })(jQuery);
