@@ -1,0 +1,3 @@
+- replace all css/js with non-minified versions
+- bundle js in source
+- 
