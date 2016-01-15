@@ -2209,6 +2209,12 @@ a {
 .portfolio-item {
   margin-bottom: 20px;
 }
+.services-title {
+  margin-top: 10px;
+}
+.services-item {
+  margin-bottom: 40px;
+}
 .mfp-close {
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
 }
@@ -2216,9 +2222,12 @@ a {
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   margin-top: -30px;
 }
+.footer {
+  margin-top: 40px;
+}
 .wrapper {
   overflow: hidden;
 }
 .subhead {
-  margin-bottom: 1em;
+  margin-bottom: 40px;
 }

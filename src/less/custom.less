@@ -140,7 +140,6 @@ a {
   }
 }
 
-
 // ---- Social Icons ----
 
 .list-social-icons {
@@ -158,8 +157,19 @@ a {
 // ---- Portfolio ----
 
 .portfolio-item {
-  margin-bottom: 20px;
+  .stackable;
 }
+
+// ---- Services ----
+
+.services-title {
+  margin-top: 10px;
+}
+
+.services-item {
+  .stackable(2);
+}
+
 
 // ---- Magnific Popup
 
@@ -172,6 +182,12 @@ a {
   margin-top: -30px;
 }
 
+// ---- Footer ----
+
+.footer {
+  margin-top: 40px;
+}
+
 // ---- Other ----
 
 .wrapper {
@@ -179,5 +195,9 @@ a {
 }
 
 .subhead {
-  margin-bottom: 1em;
+  margin-bottom: 40px;
+}
+
+.stackable (@multiplier: 1) {
+  margin-bottom: (20px * @multiplier);
 }
