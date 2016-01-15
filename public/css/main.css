@@ -2083,7 +2083,7 @@
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: "Montage", "Palatino", "Garamond", serif;
+  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   font-size: 20px;
   line-height: 1.5;
 }
@@ -2198,6 +2198,16 @@ a {
 .portfolio-item {
   margin-bottom: 20px;
 }
+.mfp-close {
+  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
+}
+.mfp-bottom-bar {
+  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  margin-top: -30px;
+}
 .wrapper {
   overflow: hidden;
+}
+.subhead {
+  margin-bottom: 1em;
 }

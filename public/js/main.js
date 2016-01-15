@@ -44,9 +44,27 @@
 
     // Popup
 
-    $(".popup-link").magnificPopup({
-      type: "image"
+    // $(".popup-link").magnificPopup({
+    //   type: "image"
+    // });
+
+    $(".section-portfolio").magnificPopup({
+      delegate: "a.popup-link",
+      type: "image",
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1]
+      },
+      image: {
+        titleSrc: function(item) {
+          return item.el.attr("title");
+        },
+        tError: "The image could not be loaded.",
+        verticalFit: true
+      }
     });
+
 
   });
 })(jQuery);
