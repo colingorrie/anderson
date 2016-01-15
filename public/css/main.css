@@ -2087,6 +2087,11 @@ body {
   font-size: 20px;
   line-height: 1.5;
 }
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 16px;
+  }
+}
 h1,
 h2,
 h3,
@@ -2100,20 +2105,50 @@ h6 {
 h1 {
   font-size: 3.998em;
 }
+@media only screen and (max-width: 479px) {
+  h1 {
+    font-size: 3.157em;
+  }
+}
 h2 {
   font-size: 2.827em;
+}
+@media only screen and (max-width: 479px) {
+  h2 {
+    font-size: 2.369em;
+  }
 }
 h3 {
   font-size: 1.999em;
 }
+@media only screen and (max-width: 479px) {
+  h3 {
+    font-size: 1.777em;
+  }
+}
 h4 {
   font-size: 1.414em;
+}
+@media only screen and (max-width: 479px) {
+  h4 {
+    font-size: 1.333em;
+  }
 }
 h5 {
   font-size: 0.707em;
 }
+@media only screen and (max-width: 479px) {
+  h5 {
+    font-size: 0.750em;
+  }
+}
 h6 {
   font-size: 0.354em;
+}
+@media only screen and (max-width: 479px) {
+  h6 {
+    font-size: 0.563em;
+  }
 }
 img {
   max-width: 100%;
@@ -2185,6 +2220,11 @@ a {
   color: #ffffff;
   padding: 220px 0 260px 0;
   text-align: center;
+}
+@media only screen and (max-width: 479px) {
+  .section.section-splash {
+    padding: 100px 0 140px 0;
+  }
 }
 .list-social-icons {
   margin: 0 auto;
