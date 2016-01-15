@@ -2189,7 +2189,13 @@ a {
 .section.section-splash {
   color: #ffffff;
   height: 100vh;
+  padding-top: 120px;
   text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  .section.section-splash {
+    padding-top: 300px;
+  }
 }
 .list-social-icons {
   margin: 0 auto;
