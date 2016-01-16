@@ -15,7 +15,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: @header-font;
-  font-weight: 600;
+  font-weight: @fontweight-bold;
   line-height: 1;
 }
 
@@ -44,7 +44,7 @@ h6 {
 }
 
 label {
-  font-weight: 400;
+  font-weight: @fontweight-normal;
 }
 
 img {
@@ -67,7 +67,7 @@ a {
   border: 0;
   border-radius: 0;
   font-family: @header-font;
-  font-weight: 600;
+  font-weight: @fontweight-bold;
   text-transform: uppercase;
   transition: @transition-default;
 }
@@ -193,7 +193,7 @@ a {
 .section-contact {}
 
 .button-submit {
-  font-weight: 100;
+  font-weight: @fontweight-light;
 }
 
 /* === FOOTER === */
@@ -236,7 +236,7 @@ a {
 .popup-title {}
 
 .popup-description {
-  font-weight: 100;
+  font-weight: @fontweight-light;
 }
 
 /* === SOCIAL ICONS (FONTAWESOME) === */
