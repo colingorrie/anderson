@@ -57,8 +57,8 @@
         // verticalFit: true
       },
       type: "image"
-
     });
 
   });
+
 })(jQuery);
