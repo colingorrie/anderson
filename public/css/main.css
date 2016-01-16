@@ -2139,6 +2139,7 @@ a {
 }
 .form-control {
   font-size: 1em;
+  font-weight: 100;
   line-height: 1.2;
 }
 /* =======
