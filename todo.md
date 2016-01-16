@@ -2,3 +2,6 @@
 - bundle js in source
 - harmonize media queries with bootstrap's
 - change bg-colour of docked collapsed menu 
+- add carousel
+- add testimonials
+- add address, phone, copyright in footer

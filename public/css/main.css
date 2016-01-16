@@ -2088,12 +2088,16 @@ body {
   color: #000000;
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   font-size: 16px;
+  font-weight: 100;
   line-height: 1.5;
 }
 @media only screen and (min-width: 1224px) {
   body {
     font-size: 20px;
   }
+}
+strong {
+  font-weight: 400;
 }
 h1,
 h2,
