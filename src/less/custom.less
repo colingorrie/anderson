@@ -128,8 +128,12 @@ a {
   position: relative;
 }
 
-.section:nth-child(even) {
+.section:nth-child(even) when (lightness(@color-background) > 50%) {
   background-color: darken(@color-background, 10%);
+}
+
+.section:nth-child(even) when (lightness(@color-background) <= 50%) {
+  background-color: lighten(@color-background, 10%);
 }
 
 // --- Section: Splash
