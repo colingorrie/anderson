@@ -2228,9 +2228,10 @@ a {
 .services-item {
   margin-bottom: 40px;
 }
+/* === CONTACT SECTION === */
 /* === FOOTER === */
 .footer {
-  margin-top: 40px;
+  padding-top: 20px;
 }
 /* === OTHER === */
 .wrapper {
