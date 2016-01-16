@@ -42,12 +42,6 @@
       }
     });
 
-    // Popup
-
-    // $(".popup-link").magnificPopup({
-    //   type: "image"
-    // });
-
     $(".section-portfolio").magnificPopup({
       delegate: "a.popup-link",
       type: "image",
@@ -64,7 +58,6 @@
         verticalFit: true
       }
     });
-
 
   });
 })(jQuery);

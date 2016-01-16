@@ -124,8 +124,12 @@ a {
 // --- Section
 
 .section {
-  padding-top: 120px;
+  padding: 100px 0;
   position: relative;
+}
+
+.section:nth-child(even) {
+  background-color: darken(@color-background, 10%);
 }
 
 // --- Section: Splash
@@ -195,7 +199,8 @@ a {
 }
 
 .subhead {
-  margin-bottom: 40px;
+  font-weight: 100;
+  margin-bottom: 40px; 
 }
 
 .stackable (@multiplier: 1) {
