@@ -1,4 +1,6 @@
-// ---- Base Styles ----
+/* ===========
+   BASE STYLES 
+   =========== */
 
 body {
   background-color: @color-background;
@@ -50,9 +52,11 @@ a {
   transition: @transition-default;
 }
 
-// ---- Modules ----
+/* =======
+   MODULES
+   ======= */
 
-// --- Navbar
+/* === NAVBAR === */
 
 .navbar {
   background: none;
@@ -121,7 +125,7 @@ a {
   background-color: @color-background;  // .icon-bar is coloured with background-color, not color
 }
 
-// --- Section
+/* === SECTIONS === */
 
 .section {
   padding: 100px 0;
@@ -136,7 +140,12 @@ a {
   background-color: lighten(@color-background, 10%);
 }
 
-// --- Section: Splash
+.subhead {
+  font-weight: 100;
+  margin-bottom: 40px; 
+}
+
+/* === SPLASH SECTION === */
 
 .section.section-splash {
   color: @color-background;
@@ -148,7 +157,52 @@ a {
   }
 }
 
-// ---- Social Icons ----
+/* === PORTFOLIO SECTION === */
+
+.section-portfolio {}
+
+.portfolio-item {
+  .stackable(3);
+}
+
+/* === SERVICES SECTION === */
+
+.services-title {
+  margin-top: 10px;
+}
+
+.services-item {
+  .stackable(4);
+}
+
+/* === FOOTER === */
+
+.footer {
+  margin-top: 40px;
+}
+
+/* === OTHER === */
+
+.wrapper {
+  overflow: hidden;
+}
+
+/* ==================
+   THIRD-PARTY STYLES 
+   ================== */
+
+/* === MAGNIFIC POPUP === */
+
+.mfp-close {
+  font-family: @header-font;
+}
+
+.mfp-bottom-bar {
+  font-family: @header-font;
+  margin-top: -30px;
+}
+
+/* === SOCIAL ICONS (FONTAWESOME) === */
 
 .list-social-icons {
   margin: 0 auto;
@@ -160,51 +214,4 @@ a {
 
 .link-social:hover {
   color: @color-accent;
-}
-
-// ---- Portfolio ----
-
-.section-portfolio {}
-
-.portfolio-item {
-  .stackable(3);
-}
-
-// ---- Services ----
-
-.services-title {
-  margin-top: 10px;
-}
-
-.services-item {
-  .stackable(4);
-}
-
-
-// ---- Magnific Popup
-
-.mfp-close {
-  font-family: @header-font;
-}
-
-.mfp-bottom-bar {
-  font-family: @header-font;
-  margin-top: -30px;
-}
-
-// ---- Footer ----
-
-.footer {
-  margin-top: 40px;
-}
-
-// ---- Other ----
-
-.wrapper {
-  overflow: hidden;
-}
-
-.subhead {
-  font-weight: 100;
-  margin-bottom: 40px; 
 }

@@ -2080,6 +2080,9 @@
 .fa-percent:before {
   content: "\f295";
 }
+/* ===========
+   BASE STYLES 
+   =========== */
 body {
   background-color: #ffffff;
   color: #000000;
@@ -2128,6 +2131,10 @@ a {
   -webkit-transition: all 0.125s ease-in-out 0s;
   transition: all 0.125s ease-in-out 0s;
 }
+/* =======
+   MODULES
+   ======= */
+/* === NAVBAR === */
 .navbar {
   background: none;
   border: 0;
@@ -2182,6 +2189,7 @@ a {
 .is-navbar-floating .navbar-toggle:focus .icon-bar {
   background-color: #ffffff;
 }
+/* === SECTIONS === */
 .section {
   padding: 100px 0;
   position: relative;
@@ -2189,6 +2197,11 @@ a {
 .section:nth-child(even) {
   background-color: #e6e6e6;
 }
+.subhead {
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+/* === SPLASH SECTION === */
 .section.section-splash {
   color: #ffffff;
   height: 100vh;
@@ -2200,6 +2213,37 @@ a {
     padding-top: 240px;
   }
 }
+/* === PORTFOLIO SECTION === */
+.portfolio-item {
+  margin-bottom: 30px;
+}
+/* === SERVICES SECTION === */
+.services-title {
+  margin-top: 10px;
+}
+.services-item {
+  margin-bottom: 40px;
+}
+/* === FOOTER === */
+.footer {
+  margin-top: 40px;
+}
+/* === OTHER === */
+.wrapper {
+  overflow: hidden;
+}
+/* ==================
+   THIRD-PARTY STYLES 
+   ================== */
+/* === MAGNIFIC POPUP === */
+.mfp-close {
+  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
+}
+.mfp-bottom-bar {
+  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
+  margin-top: -30px;
+}
+/* === SOCIAL ICONS (FONTAWESOME) === */
 .list-social-icons {
   margin: 0 auto;
 }
@@ -2208,30 +2252,4 @@ a {
 }
 .link-social:hover {
   color: #000000;
-}
-.portfolio-item {
-  margin-bottom: 30px;
-}
-.services-title {
-  margin-top: 10px;
-}
-.services-item {
-  margin-bottom: 40px;
-}
-.mfp-close {
-  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
-}
-.mfp-bottom-bar {
-  font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
-  margin-top: -30px;
-}
-.footer {
-  margin-top: 40px;
-}
-.wrapper {
-  overflow: hidden;
-}
-.subhead {
-  font-weight: 100;
-  margin-bottom: 40px;
 }
