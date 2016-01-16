@@ -2213,9 +2213,23 @@ a {
     padding-top: 240px;
   }
 }
+/* === PROFILE SECTION === */
+.profile-pic {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .profile-pic {
+    margin-bottom: 0;
+  }
+}
 /* === PORTFOLIO SECTION === */
 .portfolio-item {
   margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .portfolio-item {
+    margin-bottom: 0;
+  }
 }
 /* === SERVICES SECTION === */
 .services-title {
@@ -2223,6 +2237,11 @@ a {
 }
 .services-item {
   margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .services-item {
+    margin-bottom: 0;
+  }
 }
 /* === FOOTER === */
 .footer {
