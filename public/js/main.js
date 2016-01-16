@@ -28,11 +28,11 @@
 
     // Floating navbar
 
-    var navbar = $('.navbar');
-    var navHeight = navbar.height();
+    var navbar = $(".navbar");
+    var navbarHeight = navbar.height();
 
     $(window).scroll(function() {
-      if($(this).scrollTop() >= navHeight) {
+      if($(this).scrollTop() >= navbarHeight) {
         navbar.addClass("is-navbar-floating");
         navbar.removeClass("is-navbar-docked");
       }
@@ -42,7 +42,10 @@
       }
     });
 
+    // Portfolio popups
+
     $(".section-portfolio").magnificPopup({
+      alignTop: true,
       delegate: "a.popup-link",
       gallery: {
         enabled: true,
@@ -51,10 +54,11 @@
       },
       image: {
         titleSrc: function(item) {
-          return item.el.attr("title");
+          return "<h4 class='popup-title'>" + item.el.attr("title") +
+          "</h4><p class='popup-description'>" + item.el.data("description") + "</p>";
         },
-        tError: "The image could not be loaded."
-        // verticalFit: true
+        tError: "The image could not be loaded.",
+        verticalFit: false
       },
       type: "image"
     });

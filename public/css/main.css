@@ -2248,6 +2248,9 @@ a {
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   margin-top: -30px;
 }
+.popup-description {
+  font-weight: 100;
+}
 /* === SOCIAL ICONS (FONTAWESOME) === */
 .list-social-icons {
   margin: 0 auto;
