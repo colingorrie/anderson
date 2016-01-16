@@ -2237,7 +2237,13 @@ a {
 }
 /* === FOOTER === */
 .footer {
+  background-color: #000000;
+  color: #ffffff;
   padding-top: 20px;
+}
+.footer a,
+.footer a:hover {
+  color: #ffffff;
 }
 /* === OTHER === */
 .wrapper {
@@ -2260,10 +2266,4 @@ a {
 /* === SOCIAL ICONS (FONTAWESOME) === */
 .list-social-icons {
   margin: 0 auto;
-}
-.link-social {
-  color: #000000;
-}
-.link-social:hover {
-  color: #000000;
 }
