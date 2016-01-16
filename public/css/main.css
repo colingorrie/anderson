@@ -2237,15 +2237,18 @@ a {
 }
 /* === FOOTER === */
 .footer {
+  padding-top: 20px;
   background-color: #000000;
   color: #ffffff;
-  padding-top: 20px;
 }
 .footer a,
 .footer a:hover {
   color: #ffffff;
 }
 /* === OTHER === */
+.btn {
+  font-size: 1em;
+}
 .wrapper {
   overflow: hidden;
 }

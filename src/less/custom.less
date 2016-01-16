@@ -74,7 +74,6 @@ a {
  
 .navbar-brand {
   font-size: 1em;  // override bootstrap default
-
 }
 
 .navbar-brand, .navbar-nav>li>a {
@@ -200,9 +199,8 @@ a {
 /* === FOOTER === */
 
 .footer {
-  background-color: @color-foreground;
-  color: @color-background;
   padding-top: 20px;
+  .inverted;
 }
 
 .footer a,
@@ -211,6 +209,10 @@ a {
 }
 
 /* === OTHER === */
+
+.btn {
+  font-size: 1em;
+}
 
 .wrapper {
   overflow: hidden;
@@ -242,11 +244,3 @@ a {
 .list-social-icons {
   margin: 0 auto;
 }
-
-// .link-social {
-//   color: @color-foreground;  
-// }
-
-// .link-social:hover {
-//   color: @color-accent;
-// }

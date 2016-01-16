@@ -1,6 +1,5 @@
 - replace all css/js with non-minified versions
 - bundle js in source
 - make variables for font-weights
-- make mixin for inverting colour
 - harmonize media queries with bootstrap's
-- 
+- change bg-colour of docked collapsed menu 
