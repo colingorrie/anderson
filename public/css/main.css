@@ -2091,7 +2091,7 @@ body {
   font-weight: 100;
   line-height: 1.5;
 }
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 992px) {
   body {
     font-size: 20px;
   }
@@ -2223,7 +2223,7 @@ a {
   padding-top: 120px;
   text-align: center;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   .section.section-splash {
     padding-top: 240px;
   }
