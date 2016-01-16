@@ -2123,6 +2123,9 @@ h5 {
 h6 {
   font-size: 0.563em;
 }
+label {
+  font-weight: 400;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -2229,6 +2232,9 @@ a {
   margin-bottom: 40px;
 }
 /* === CONTACT SECTION === */
+.button-submit {
+  font-weight: 100;
+}
 /* === FOOTER === */
 .footer {
   padding-top: 20px;
