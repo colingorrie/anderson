@@ -25,27 +25,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3.157em;
+  font-size: @size1;
 }
 
 h2 {
-  font-size: 2.369em;
+  font-size: @size2;
 }
 
 h3 {
-  font-size: 1.777em;
+  font-size: @size3;
 }
 
 h4 {
-  font-size: 1.333em;
+  font-size: @size4;
 }
 
 h5 {
-  font-size: 0.750em;
+  font-size: @size5;
 }
 
 h6 {
-  font-size: 0.563em;
+  font-size: @size6;
 }
 
 label {
@@ -62,11 +62,11 @@ a {
 }
 
 .btn {
-  font-size: 1em;
+  font-size: @size5;
 }
 
 .form-control {
-  font-size: 1em;
+  font-size: @size5;
   font-weight: @fontweight-light;
   line-height: 1.2;
 }
@@ -88,7 +88,7 @@ a {
 }
  
 .navbar-brand {
-  font-size: 1em;  // override bootstrap default
+  font-size: @size5;
 }
 
 .navbar-brand, .navbar-nav>li>a {
@@ -222,6 +222,12 @@ a {
 .footer a:hover {
   color: @color-background;
 }
+
+.footer-item {
+  .stackable(2);
+}
+
+.copyright {}
 
 /* === OTHER === */
 

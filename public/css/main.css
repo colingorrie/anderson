@@ -2122,10 +2122,10 @@ h4 {
   font-size: 1.333em;
 }
 h5 {
-  font-size: 0.750em;
+  font-size: 1em;
 }
 h6 {
-  font-size: 0.563em;
+  font-size: 0.75em;
 }
 label {
   font-weight: 400;
@@ -2256,6 +2256,9 @@ a {
 .footer a,
 .footer a:hover {
   color: #ffffff;
+}
+.footer-item {
+  margin-bottom: 20px;
 }
 /* === OTHER === */
 .wrapper {
