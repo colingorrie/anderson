@@ -44,7 +44,6 @@
 
     $(".section-portfolio").magnificPopup({
       delegate: "a.popup-link",
-      type: "image",
       gallery: {
         enabled: true,
         navigateByImgClick: true,
@@ -54,9 +53,11 @@
         titleSrc: function(item) {
           return item.el.attr("title");
         },
-        tError: "The image could not be loaded.",
-        verticalFit: true
-      }
+        tError: "The image could not be loaded."
+        // verticalFit: true
+      },
+      type: "image"
+
     });
 
   });
