@@ -2173,15 +2173,32 @@ a {
 .is-navbar-docked .navbar-nav > li > a {
   color: #ffffff;
 }
-.is-navbar-docked .navbar-collapse {
-  border-color: #ffffff;
-}
 .is-navbar-docked .navbar-toggle,
 .is-navbar-docked .navbar-toggle:hover,
 .is-navbar-docked .navbar-toggle:focus {
-  background: none;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
+}
+.is-navbar-docked .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.is-navbar-docked .navbar-toggle:hover .icon-bar,
+.is-navbar-docked .navbar-toggle:focus .icon-bar {
+  background-color: #000000;
+}
+.is-navbar-docked.is-navbar-collapsed {
+  background-color: #ffffff;
+  color: #000000;
+}
+.is-navbar-docked.is-navbar-collapsed .navbar-brand {
+  color: #000000;
+}
+.is-navbar-docked.is-navbar-collapsed .navbar-nav > li > a {
+  color: #000000;
+}
+.is-navbar-docked.is-navbar-collapsed .navbar-collapse {
+  border-color: #000000;
 }
 .is-navbar-floating {
   background-color: #ffffff;

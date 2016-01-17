@@ -95,6 +95,8 @@ a {
   text-shadow: none !important;  // override bootstrap default
 }
 
+// Docked navbar
+
 .is-navbar-docked {}
 
 .is-navbar-docked .navbar-brand {
@@ -105,17 +107,43 @@ a {
   color: @color-background;
 }
 
-.is-navbar-docked .navbar-collapse{
-  border-color: @color-background;
-}
+// Docked collapsed navbar
 
 .is-navbar-docked .navbar-toggle,
 .is-navbar-docked .navbar-toggle:hover,
 .is-navbar-docked .navbar-toggle:focus {
-  background: none;
-  border: 1px solid @color-background;
-  color: @color-background;
+  background: @color-background;
+  border: 1px solid @color-foreground;
+  color: @color-foreground;
 }
+
+.is-navbar-docked .navbar-toggle .icon-bar {
+  background-color: @color-foreground;  // .icon-bar is coloured with background-color, not color
+}
+
+.is-navbar-docked .navbar-toggle:hover .icon-bar,
+.is-navbar-docked .navbar-toggle:focus .icon-bar {
+  background-color: @color-foreground;  // .icon-bar is coloured with background-color, not color
+}
+
+.is-navbar-docked.is-navbar-collapsed {
+  background-color: @color-background;
+  color: @color-foreground;
+}
+
+.is-navbar-docked.is-navbar-collapsed .navbar-brand {
+  color: @color-foreground;
+}
+
+.is-navbar-docked.is-navbar-collapsed .navbar-nav>li>a {
+  color: @color-foreground;
+}
+
+.is-navbar-docked.is-navbar-collapsed .navbar-collapse{
+  border-color: @color-foreground;
+}
+
+// Floating navbar
 
 .is-navbar-floating {
   background-color: @color-background;
@@ -128,6 +156,8 @@ a {
 .is-navbar-floating .navbar-nav>li>a:hover {
   color: @color-foreground;
 }
+
+// Floating collapsed navbar
 
 .is-navbar-floating .navbar-toggle:hover,
 .is-navbar-floating .navbar-toggle:focus {
