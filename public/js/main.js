@@ -1,4 +1,5 @@
 (function($){
+
   $(document).ready(function() {
 
     $("body").scrollspy({
@@ -30,6 +31,7 @@
 
     var navbar = $(".navbar");
     var navbarHeight = navbar.height();
+    var navbarCollaspedMaxWidth = 767;
 
     $(window).scroll(function() {
       if($(this).scrollTop() >= navbarHeight) {
@@ -39,6 +41,21 @@
       else {
         navbar.addClass("is-navbar-docked");
         navbar.removeClass("is-navbar-floating");
+      }
+    });
+
+    // Get collapse class onto navbar parent div.
+
+    if ($(window).width() <= navbarCollaspedMaxWidth) {
+      navbar.addClass("is-navbar-collapsed");
+    }
+
+    $(window).resize(function() {
+      if ($(this).width() <= navbarCollaspedMaxWidth) {
+        navbar.addClass("is-navbar-collapsed");
+      }
+      else {
+        navbar.removeClass("is-navbar-collapsed");
       }
     });
 

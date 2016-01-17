@@ -3,5 +3,4 @@
 - change bg-colour of docked collapsed menu 
 - add carousel
 - add testimonials
-- add address, phone, copyright in footer
 - test on different browsers
