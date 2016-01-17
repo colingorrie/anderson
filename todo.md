@@ -1,6 +1,7 @@
 - replace all css/js with non-minified versions
 - bundle js in source
-- change bg-colour of docked collapsed menu 
 - add carousel
-- add testimonials
 - test on different browsers
+- fix footer text alignment in small screen sizes
+- finalize images
+- finalize copy

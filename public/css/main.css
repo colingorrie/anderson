@@ -2247,7 +2247,9 @@ a {
 }
 /* === PROFILE SECTION === */
 .profile-pic {
-  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 20px;
 }
 /* === PORTFOLIO SECTION === */
 .portfolio-item {
@@ -2263,6 +2265,10 @@ a {
 /* === CONTACT SECTION === */
 .button-submit {
   font-weight: 100;
+}
+/* === TESTIMONIALS SECTION === */
+.testimonials-item {
+  margin-bottom: 40px;
 }
 /* === FOOTER === */
 .footer {
