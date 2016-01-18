@@ -1,4 +1,4 @@
-- replace all css/js with non-minified versions
+- add non-minified versions for all css/js
 - bundle js in source
 - add carousel
 - test on different browsers
