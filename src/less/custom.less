@@ -264,7 +264,7 @@ a {
 }
 
 .footer-item {
-  .stackable(2);
+  .stackable(4);
 }
 
 .copyright {}
@@ -273,6 +273,18 @@ a {
 
 .wrapper {
   overflow: hidden;
+}
+
+.text-md-left {
+  @media @query-md {
+    text-align: left;
+  }
+}
+
+.text-md-right {
+  @media @query-md {
+    text-align: right;
+  }
 }
 
 /* ==================

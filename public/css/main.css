@@ -2281,11 +2281,21 @@ a {
   color: #ffffff;
 }
 .footer-item {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 /* === OTHER === */
 .wrapper {
   overflow: hidden;
+}
+@media only screen and (min-width: 992px) {
+  .text-md-left {
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .text-md-right {
+    text-align: right;
+  }
 }
 /* ==================
    THIRD-PARTY STYLES 
