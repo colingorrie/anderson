@@ -27,22 +27,22 @@
 
     // static background image
 
-    var backgroundImage = "img/bg3.jpg";
+    // var backgroundImage = "img/bg3.jpg";
 
-    $("#splash").backstretch(backgroundImage);
+    // $("#splash").backstretch(backgroundImage);
 
     // cycle between background images
 
-    // var backgroundImages = ["img/bg3.jpg", "img/portfolio1.jpg", "img/portfolio2.jpg"];
-    // var cyclingDuration = 5000;  // duration between transitions, in milliseconds
-    // var cyclingFade = 1000;  // duration of fade effect, in milliseconds
+    var backgroundImages = ["img/bg3.jpg", "img/portfolio3.jpg", "img/portfolio4.jpg"];
+    var cyclingDuration = 5000;  // duration between transitions, in milliseconds
+    var cyclingFade = 1000;  // duration of fade effect, in milliseconds
 
-    // $("#splash").backstretch(backgroundImages,
-    //   {
-    //     duration: cyclingDuration,
-    //     fade: cyclingFade
-    //   }
-    // );
+    $("#splash").backstretch(backgroundImages,
+      {
+        duration: cyclingDuration,
+        fade: cyclingFade
+      }
+    );
 
     // Floating navbar
 

@@ -1,17 +1,19 @@
 # Anderson
 
+*v1.0* (January 19, 2016)
+
 ## Plugins
 
-**Backstretch** (v2.0.4)
-Simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.
+**Backstretch** (v2.0.4)  
+Simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.  
 [Website](http://srobbin.com/jquery-plugins/backstretch/)
 
-**Magnific Popup** (v1.0.1)
-Light and responsive lightbox script with focus on performance.
+**Magnific Popup** (v1.0.1)  
+Light and responsive lightbox script with focus on performance.  
 [Website](http://dimsemenov.com/plugins/magnific-popup/)
 
-**Waypoints** (v4.0.0)
-A library that makes it easy to execute a function whenever you scroll to an element.
+**Waypoints** (v4.0.0)  
+A library that makes it easy to execute a function whenever you scroll to an element.  
 [Website](http://imakewebthings.com/waypoints/)
 
 ## Styling
@@ -117,14 +119,22 @@ The contact form included with this template uses [Formspree](formspree.io) to s
 
 ## Credits
 
-- [bg1.jpg](https://unsplash.com/photos/CQrM5BebSvE) (by Karsten Würth via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio1.jpg](https://unsplash.com/photos/K0yNjawjRkM) (by Isai Ramos via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio2.jpg](https://unsplash.com/photos/pq_ulQTFVbc) (by Annie Spratt via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio3.jpg](https://unsplash.com/photos/n-MJGM3rzDg) (by Roberto Tumini via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio4.jpg](https://unsplash.com/photos/l98YXp1X8dA) (by Paul Earle via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio5.jpg](https://unsplash.com/photos/xorjaMB8W70) (by Delfi de la Rua via Unsplash, [CC0 license](https://unsplash.com/license))
-- [portfolio6.jpg](https://unsplash.com/photos/vpAKO21abME) (by Patrick Fore via Unsplash, [CC0 license](https://unsplash.com/license))
+- [bg1.jpg](https://unsplash.com/photos/CQrM5BebSvE) (by Karsten Würth via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio1.jpg](https://unsplash.com/photos/K0yNjawjRkM) (by Isai Ramos via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio2.jpg](https://unsplash.com/photos/pq_ulQTFVbc) (by Annie Spratt via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio3.jpg](https://unsplash.com/photos/n-MJGM3rzDg) (by Roberto Tumini via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio4.jpg](https://unsplash.com/photos/l98YXp1X8dA) (by Paul Earle via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio5.jpg](https://unsplash.com/photos/xorjaMB8W70) (by Delfi de la Rua via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio6.jpg](https://unsplash.com/photos/vpAKO21abME) (by Patrick Fore via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portrait2.jpg](https://flic.kr/p/apx1UP) (by the National Library of Australia, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait3.jpg](https://flic.kr/p/4TA82M) (by the Smithsonian Institution, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait4.jpg](https://flic.kr/p/4TqKDX) (by the Smithsonian Institution, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait5.jpg](https://flic.kr/p/4TtuxU) (by the Smithsonian Institution,, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
+
+
+- [portfolio7.jpg](http://www.europeana.eu/portal/record/9200291/BibliographicResource_3000073492907.html) (Austrian National Library, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
+- [portfolio8.jpg](http://www.europeana.eu/portal/record/91638/tekm_media_22785.html) (Tekniska Museet, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
+- [portfolio9.jpg](http://www.europeana.eu/portal/record/91638/tekm_media_157686.html) (Tekniska Museet, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
+- [portfolio10.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
+- [portfolio11.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
+- [portfolio12.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))

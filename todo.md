@@ -1,3 +1,4 @@
-- add carousel
 - test on different browsers
-- finalize copy
+- test at all required sizes
+
+- get old-timey photos
