@@ -181,23 +181,23 @@
               <h4 class="subhead">We'd love to hear from you, so get in touch!</h4>
             </div>
           </div>
-          <form>
+          <form id="contact-form" role="form" method="post" action="http://formspree.io/your@email.com">
             <div class="row">
               <div class="form-group col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Name" />
+                <input type="text" class="form-control" name="name" placeholder="Name" />
             </div>
             </div>
             <div class="row">        
               <div class="form-group col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Email" />
+                <input type="email" class="form-control" name="_replyto" placeholder="Email" />
               </div>
             </div>
             <div class="row">
               <div class="form-group col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
                 <label for="subject">Subject</label>
-                <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                <input type="text" class="form-control" id="_subject" placeholder="Subject" />
               </div>
             </div>
             <div class="row">
@@ -211,6 +211,7 @@
                 <button type="submit" class="btn btn-outline-dark button-submit"><i class="fa fa-paper-plane-o"></i> Send</button>
               </div>
             </div>
+            <input type="text" name="_gotcha" style="display:none" />
           </form>
         </div>
       </section>
