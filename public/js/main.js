@@ -25,7 +25,24 @@
 
     // Backstretch
 
-    $("#splash").backstretch(["img/bg3.jpg"]);
+    // static background image
+
+    var backgroundImage = "img/bg3.jpg";
+
+    $("#splash").backstretch(backgroundImage);
+
+    // cycle between background images
+
+    // var backgroundImages = ["img/bg3.jpg", "img/portfolio1.jpg", "img/portfolio2.jpg"];
+    // var cyclingDuration = 5000;  // duration between transitions, in milliseconds
+    // var cyclingFade = 1000;  // duration of fade effect, in milliseconds
+
+    // $("#splash").backstretch(backgroundImages,
+    //   {
+    //     duration: cyclingDuration,
+    //     fade: cyclingFade
+    //   }
+    // );
 
     // Floating navbar
 
@@ -44,7 +61,7 @@
       }
     });
 
-    // Get collapse class onto navbar parent div.
+    // Get collapse class onto navbar root div manually
 
     if ($(window).width() <= navbarCollaspedMaxWidth) {
       navbar.addClass("is-navbar-collapsed");

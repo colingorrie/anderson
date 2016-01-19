@@ -20,13 +20,15 @@ A library that makes it easy to execute a function whenever you scroll to an ele
 
 ### Splash
 
-#### Single background image
+#### Static background image
 
 The background image in the splash section can be changed in `js/main.js`. Simply change the contents of the variable `backgroundImage` from `"img/bg3.jpg"` to the image of your choice:
 
 ```js
-// single background image
+// static background image
+
 var backgroundImage = "img/bg3.jpg";
+
 $("#splash").backstretch(backgroundImage);
 ```
 
@@ -35,7 +37,8 @@ $("#splash").backstretch(backgroundImage);
 To have the splash section cycle between multiple background images, comment out the single background image code, and uncomment the multiple background image code. Simply change the contents of the array `backgroundImages` to include whatever images you want to cycle between.
 
 ```js
-// multiple background images
+// cycle between background images
+
 var backgroundImages = ["img/bg3.jpg", "img/portfolio1.jpg", "img/portfolio2.jpg"];
 var cyclingDuration = 5000;  // duration between transitions, in milliseconds
 var cyclingFade = 1000;  // duration of fade effect, in milliseconds
