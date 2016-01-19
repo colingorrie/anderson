@@ -18,6 +18,20 @@ A library that makes it easy to execute a function whenever you scroll to an ele
 
 ### Navbar
 
+If you add, remove, or change the sections of the page, you will want to change the corresponding navbar elements as well. Each section in the body of the page is represented by an `li` element in the navbar. Each section has an `id` attribute. The navbar uses these to link to the various sections on the page.
+
+```html
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="#profile">Profile</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#testimonials">Testimonials</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+```
+
+To remove a section from the navbar, delete its `li` element. To add a section, duplicate an existing `li` element, and change its `href` attribute to point to `#whatever`, where `whatever` is the `id` attribute of the new section.
+
 ### Splash
 
 #### Static background image
@@ -51,19 +65,14 @@ $("#splash").backstretch(backgroundImages,
 );
 ```
 
+### Contact form
 
+The contact form included with this template requires configuration in order to send email. This can be done without much difficulty in one of two ways.
 
-### Profile
+1. Use a web service such as [formspree.io](). (easier)
+2.  (requires knowledge of PHP)
 
-### Services
-
-### Portfolio
-
-### Testimonials
-
-### Contact
-
-### Footer
+Note: in some cases, configuring the PHP solution may require the involvement of your web hosting provider. If you are having trouble sending mail using this method, contact your provider for troubleshooting.
 
 ## Credits
 
