@@ -14,6 +14,22 @@ Light and responsive lightbox script with focus on performance.
 A library that makes it easy to execute a function whenever you scroll to an element.
 [Website](http://imakewebthings.com/waypoints/)
 
+## Styling
+
+The recommended way to edit the appearance of the template is by using LESS. In particular, `theme.less` defines a set variables which make customization easy. Here you can change template-wide typography and colour scheme all in one place. Here is an explanation of how each variable is used, along with the variable's default value.
+
+- `@serif-font`: the template-wide default sans-serif font. Can be used in other variables, but by default is not used. *Default*: `"Montaga", "Palatino", "Garamond", serif`
+- `@sans-serif-font`: the template-wide default serif font. Used in other variables. *Default*: `"Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif`
+
+- `@header-font`: the font used in all `h1, h2, h3, h4, h5, h6` elements. *Default*: `@sans-serif-font`
+- `@body-font`: the font used in all non-header elements. *Default*: `@sans-serif-font`
+
+- `@fontsize-base`: the base font size used, for example, by `p` elements on screens 992px in width and above. *Default*: `20px`
+- `@fontsize-base-mobile`: the base font size used, for example, by `p` elements on screens less than 992px in width. *Default*: `16px`
+
+- `@color-background`: the colour used for the site background. *Default*: `hsl(0, 100%, 100%);` (white)
+- `@color-foreground`: the colour used for foreground elements, such as text. *Default*: `hsl(0, 100%, 0%);` (black)
+
 ## Components
 
 ### Navbar
@@ -65,14 +81,39 @@ $("#splash").backstretch(backgroundImages,
 );
 ```
 
+### Portfolio
+
+To add a portfolio item, fill out the snippet below with the filename of the image, title, and description of the item.
+
+```html
+<div class="col-sm-4 portfolio-item">
+  <a class="popup-link" href="filename.jpg" title="Title" data-description="Description.">
+    <img class="img-responsive" src="filename.jpg" alt="" />
+  </a>
+</div>
+```
+
+Next, insert the snippet consisting of the `<div class="col-sm-4 portfolio-item">` into the portfolio section in the spot specified below. By default, porfolio items will form rows of three, except at the smallest screen sizes, where they will be stacked one on top of the other.
+
+```html
+<section class="section section-portfolio" id="portfolio">
+  <div class="container">
+    <h2>Portfolio</h2>
+    <h4 class="subhead">Check out our work</h4>
+    <div class="row">
+        <!-- add portfolio items here -->
+    </div>
+  </div>
+</section>
+```
+
 ### Contact form
 
-The contact form included with this template requires configuration in order to send email. This can be done without much difficulty in one of two ways.
+The contact form included with this template uses [Formspree](formspree.io) to send email. This method requires a small amount of configuration. The only change you need to make in `index.html` in the link in the form's `action` attribute. Change `test@example.com` to your email address, and submit the form for the first time. This will take you through Formspree's registration process.
 
-1. Use a web service such as [formspree.io](). (easier)
-2.  (requires knowledge of PHP)
-
-Note: in some cases, configuring the PHP solution may require the involvement of your web hosting provider. If you are having trouble sending mail using this method, contact your provider for troubleshooting.
+```html
+<form id="contact-form" role="form" method="post" action="http://formspree.io/test@example.com">
+```
 
 ## Credits
 
