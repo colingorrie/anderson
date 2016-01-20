@@ -122,9 +122,7 @@ The contact form included with this template uses [Formspree](formspree.io) to s
 ### Splash backgrounds
 
 - [bg1.jpg](https://unsplash.com/photos/Ki0dpxd3LGc) (by Thomas Shellberg via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [bg2.jpg](https://unsplash.com/photos/dPFaq7RVzbQ) (by Cristian Baron via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [bg3.jpg](https://unsplash.com/photos/CQrM5BebSvE) (by Karsten Würth via Unsplash, [CC-0 license](https://unsplash.com/license))
-
 - [bg4.jpg](https://unsplash.com/photos/m6hpb2rWP7Q) (by Mats-Peter Forss via Unsplash, [CC-0 license](https://unsplash.com/license))
 
 
@@ -136,13 +134,6 @@ The contact form included with this template uses [Formspree](formspree.io) to s
 - [portfolio4.jpg](https://unsplash.com/photos/UyUvM0xcqMA) (by Samuel Zeller, via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio5.jpg](https://unsplash.com/photos/8hgm6mKK04U) (by Petradr, via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio6.jpg](https://unsplash.com/photos/Hz1WQbHcXag) (by Alessandro Pellacini Benassi, via Unsplash, [CC-0 license](https://unsplash.com/license))
-
-- [portfolio1.jpg](https://unsplash.com/photos/K0yNjawjRkM) (by Isai Ramos via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [portfolio2.jpg](https://unsplash.com/photos/pq_ulQTFVbc) (by Annie Spratt via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [portfolio3.jpg](https://unsplash.com/photos/n-MJGM3rzDg) (by Roberto Tumini via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [portfolio4.jpg](https://unsplash.com/photos/l98YXp1X8dA) (by Paul Earle via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [portfolio5.jpg](https://unsplash.com/photos/xorjaMB8W70) (by Delfi de la Rua via Unsplash, [CC-0 license](https://unsplash.com/license))
-- [portfolio6.jpg](https://unsplash.com/photos/vpAKO21abME) (by Patrick Fore via Unsplash, [CC-0 license](https://unsplash.com/license))
 
 ### Portraits
 
