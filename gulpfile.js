@@ -8,7 +8,7 @@ var imagemin          = require('gulp-imagemin');
 
 // browsers for which autoprefix will add prefixes
 // var browsers = "> 1%, last 2 versions, IE >= 8, Firefox ESR, Opera 12.1";
-var browsers = "> 1%";
+var browsers = "IE >= 8, last 1 version";
 
 gulp.task("less", function() {
   // compile less files

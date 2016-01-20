@@ -53,7 +53,6 @@ img {
   height: auto;
 }
 a {
-  -webkit-transition: all 0.125s ease-in-out 0s;
   transition: all 0.125s ease-in-out 0s;
 }
 .btn {
@@ -75,7 +74,6 @@ a {
   font-family: "Josefin Sans Std", "Gill Sans", "Verdana", "Lucida Grande", "Arial", "Helvetica", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition: all 0.125s ease-in-out 0s;
   transition: all 0.125s ease-in-out 0s;
 }
 .navbar-brand {
