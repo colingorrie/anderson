@@ -16,6 +16,12 @@ Light and responsive lightbox script with focus on performance.
 A library that makes it easy to execute a function whenever you scroll to an element.  
 [Website](http://imakewebthings.com/waypoints/)
 
+**Modernizr**
+
+
+**Font-Awesome** (v.4.5.0)
+
+
 ## Styling
 
 The recommended way to edit the appearance of the template is by using LESS. In particular, `theme.less` defines a set variables which make customization easy. Here you can change template-wide typography and colour scheme all in one place. Here is an explanation of how each variable is used, along with the variable's default value.
