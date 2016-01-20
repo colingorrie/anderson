@@ -119,22 +119,34 @@ The contact form included with this template uses [Formspree](formspree.io) to s
 
 ## Credits
 
-- [bg1.jpg](https://unsplash.com/photos/CQrM5BebSvE) (by Karsten Würth via Unsplash, [CC-0 license](https://unsplash.com/license))
+### Splash backgrounds
+
+- [bg1.jpg](https://unsplash.com/photos/Ki0dpxd3LGc) (by Thomas Shellberg via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [bg2.jpg](https://unsplash.com/photos/dPFaq7RVzbQ) (by Cristian Baron via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [bg3.jpg](https://unsplash.com/photos/CQrM5BebSvE) (by Karsten Würth via Unsplash, [CC-0 license](https://unsplash.com/license))
+
+- [bg4.jpg](https://unsplash.com/photos/m6hpb2rWP7Q) (by Mats-Peter Forss via Unsplash, [CC-0 license](https://unsplash.com/license))
+
+
+### Portfolio items
+
+- [portfolio1.jpg](https://unsplash.com/photos/K9QHL52rE2k) (by Naphtali Marshall, via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio2.jpg](https://unsplash.com/photos/Y6-GL40aPPs) (by Julian Böck, via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio3.jpg](https://unsplash.com/photos/b2oaLHHycWc) (by David Marcu, via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio4.jpg](https://unsplash.com/photos/UyUvM0xcqMA) (by Samuel Zeller, via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio5.jpg](https://unsplash.com/photos/8hgm6mKK04U) (by Petradr, via Unsplash, [CC-0 license](https://unsplash.com/license))
+- [portfolio6.jpg](https://unsplash.com/photos/Hz1WQbHcXag) (by Alessandro Pellacini Benassi, via Unsplash, [CC-0 license](https://unsplash.com/license))
+
 - [portfolio1.jpg](https://unsplash.com/photos/K0yNjawjRkM) (by Isai Ramos via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio2.jpg](https://unsplash.com/photos/pq_ulQTFVbc) (by Annie Spratt via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio3.jpg](https://unsplash.com/photos/n-MJGM3rzDg) (by Roberto Tumini via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio4.jpg](https://unsplash.com/photos/l98YXp1X8dA) (by Paul Earle via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio5.jpg](https://unsplash.com/photos/xorjaMB8W70) (by Delfi de la Rua via Unsplash, [CC-0 license](https://unsplash.com/license))
 - [portfolio6.jpg](https://unsplash.com/photos/vpAKO21abME) (by Patrick Fore via Unsplash, [CC-0 license](https://unsplash.com/license))
+
+### Portraits
+
 - [portrait2.jpg](https://flic.kr/p/apx1UP) (by the National Library of Australia, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait3.jpg](https://flic.kr/p/4TA82M) (by the Smithsonian Institution, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait4.jpg](https://flic.kr/p/4TqKDX) (by the Smithsonian Institution, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
 - [portrait5.jpg](https://flic.kr/p/4TtuxU) (by the Smithsonian Institution,, via Flickr [no known copyright restrictions](https://www.flickr.com/commons/usage/))
-
-
-- [portfolio7.jpg](http://www.europeana.eu/portal/record/9200291/BibliographicResource_3000073492907.html) (Austrian National Library, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
-- [portfolio8.jpg](http://www.europeana.eu/portal/record/91638/tekm_media_22785.html) (Tekniska Museet, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
-- [portfolio9.jpg](http://www.europeana.eu/portal/record/91638/tekm_media_157686.html) (Tekniska Museet, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
-- [portfolio10.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
-- [portfolio11.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))
-- [portfolio12.jpg]() (???, [public domain](http://creativecommons.org/publicdomain/mark/1.0/))

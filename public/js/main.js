@@ -33,7 +33,7 @@
 
     // cycle between background images
 
-    var backgroundImages = ["img/bg3.jpg", "img/portfolio3.jpg", "img/portfolio4.jpg"];
+    var backgroundImages = ["img/bg3.jpg", "img/bg1.jpg", "img/bg4.jpg"];
     var cyclingDuration = 5000;  // duration between transitions, in milliseconds
     var cyclingFade = 1000;  // duration of fade effect, in milliseconds
 
