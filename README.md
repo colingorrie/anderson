@@ -71,7 +71,7 @@ To have the splash section cycle between multiple background images, comment out
 ```js
 // cycle between background images
 
-var backgroundImages = ["img/bg3.jpg", "img/portfolio1.jpg", "img/portfolio2.jpg"];
+var backgroundImages = ["img/bg3.jpg", "img/bg1.jpg", "img/bg4.jpg"];
 var cyclingDuration = 5000;  // duration between transitions, in milliseconds
 var cyclingFade = 1000;  // duration of fade effect, in milliseconds
 
