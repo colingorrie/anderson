@@ -2,26 +2,32 @@
 
 *v1.0* (January 19, 2016)
 
-## Plugins
+## Third-party plugins/assets
 
 **Backstretch** (v2.0.4)  
 Simple jQuery plugin that allows you to add a dynamically-resized, slideshow-capable background image to any page or element.  
 [Website](http://srobbin.com/jquery-plugins/backstretch/)
 
+**Font-Awesome** (v4.5.0)  
+A full suite of 605 pictographic icons for easy scalable vector graphics on websites.  
+[Website](http://fontawesome.io/)
+
 **Magnific Popup** (v1.0.1)  
 Light and responsive lightbox script with focus on performance.  
 [Website](http://dimsemenov.com/plugins/magnific-popup/)
+
+**Modernizr** (v3.3.1)  
+Automatically detects the availability of next-generation web technologies in  users' browsers.  
+[Website](https://modernizr.com/)
+
+**Respond.js** (v1.4.2)  
+Enables responsive web designs in browsers that don't support CSS3 Media Queries.  
+[Website](https://github.com/scottjehl/Respond)
 
 **Waypoints** (v4.0.0)  
 A library that makes it easy to execute a function whenever you scroll to an element.  
 [Website](http://imakewebthings.com/waypoints/)
 
-**Modernizr**
-
-
-**Font-Awesome** (v.4.5.0)  
-A full suite of 605 pictographic icons for easy scalable vector graphics on websites.  
-[Website](http://fontawesome.io/)
 
 ## Styling
 

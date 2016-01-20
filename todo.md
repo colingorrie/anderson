@@ -1,3 +1,30 @@
+- fix lightbox scrolling
+
 - test on different browsers
+  - IE 8
+  - IE 9
+  - IE 10
+  - IE 11
+  - Chrome (latest)
+  - Firefox (latest)
+  - Safari (latest)
+  - Opera (latest)
+
 - test at all required sizes
-- switch fontawesome to css
+  - 320
+  - 360
+  - 480 (xs)
+  - 568
+  - 600
+  - 640
+  - 768 (sm)
+  - 800
+  - (992) (md)
+  - 1024
+  - (1200) (lg)
+  - 1280
+  - 1366
+  - 1440
+  - 1680
+  - 1920
+  - 2560
