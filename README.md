@@ -19,8 +19,9 @@ A library that makes it easy to execute a function whenever you scroll to an ele
 **Modernizr**
 
 
-**Font-Awesome** (v.4.5.0)
-
+**Font-Awesome** (v.4.5.0)  
+A full suite of 605 pictographic icons for easy scalable vector graphics on websites.  
+[Website](http://fontawesome.io/)
 
 ## Styling
 
