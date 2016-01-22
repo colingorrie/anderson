@@ -153,8 +153,13 @@ a {
 .section.section-splash {
   color: #ffffff;
   height: 100vh;
-  padding-top: 30vh;
   text-align: center;
+}
+.section.section-splash .container {
+  position: relative;
+  top: 30%;
+  -ms-transform: translateY(-30%);
+      transform: translateY(-30%);
 }
 /* === PROFILE SECTION === */
 .profile-pic {

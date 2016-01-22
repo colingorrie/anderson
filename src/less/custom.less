@@ -197,9 +197,14 @@ a {
 
 .section.section-splash {
   color: @color-background;
-  height: 100vh;
-  padding-top: 30vh;
+  .fullheight;
   text-align: center;
+}
+
+.section.section-splash .container {
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
 }
 
 /* === PROFILE SECTION === */
