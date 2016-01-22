@@ -7,7 +7,7 @@ var imagemin          = require('gulp-imagemin');
 // var gulpCssnano       = require("gulp-cssnano");
 
 // browsers for which autoprefix will add prefixes
-var browsers = "IE >= 8, last 1 version";
+var browsers = "IE >= 8, iOs >= 7, >1%, last 2 versions";
 
 gulp.task("less", function() {
   // compile less files
