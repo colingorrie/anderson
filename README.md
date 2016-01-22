@@ -28,6 +28,10 @@ Enables responsive web designs in browsers that don't support CSS3 Media Queries
 A library that makes it easy to execute a function whenever you scroll to an element.  
 [Website](http://imakewebthings.com/waypoints/)
 
+**Viewport-Units-Buggyfill** (v0.5.5)  
+Making viewport units (vh|vw|vmin|vmax) work properly in Mobile Safari.  
+[Website](https://github.com/rodneyrehm/viewport-units-buggyfill)
+
 
 ## Styling
 
