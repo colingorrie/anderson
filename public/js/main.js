@@ -92,7 +92,7 @@
           "</h4><p class='popup-description'>" + item.el.data("description") + "</p>";
         },
         tError: "The image could not be loaded.",
-        verticalFit: false
+        verticalFit: true
       },
       type: "image"
     });
