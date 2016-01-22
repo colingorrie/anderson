@@ -80,7 +80,14 @@
 
     $(".section-portfolio").magnificPopup({
       alignTop: true,
+      callbacks: {
+        buildControls: function() {
+          this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+        }
+      },
       delegate: "a.popup-link",
+      fixedBgPos: true,
+      fixedContentPos: true,
       gallery: {
         enabled: true,
         navigateByImgClick: true,

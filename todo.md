@@ -1,4 +1,3 @@
-- fix lightbox scrolling
 - deal with favicons etc.
 
 - test on different browsers
